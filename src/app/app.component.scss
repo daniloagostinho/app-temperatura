@@ -1,0 +1,13 @@
+.container {
+  width: 100vh;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  .box {
+    width: 374px;
+    height: 600px;
+    margin: 0px 10px;
+  }
+}

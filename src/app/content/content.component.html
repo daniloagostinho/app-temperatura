@@ -1,0 +1,14 @@
+<div class="box-bg" *ngIf="showContent">
+  <img *ngIf="urlImage" src={{urlImage}} class="img-fluid" alt="...">
+  <div class="content">
+    <h3>{{city}}</h3>
+    <h4 *ngIf="temperature">{{temperature}} C</h4>
+    <p>{{climate}}</p>
+  </div>
+</div>
+
+<div class="box-loading" *ngIf="loading">
+  <div class="anim2"></div>
+</div>
+
+
